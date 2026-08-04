@@ -10,7 +10,8 @@ int main() {
         cout<<"Positive"<<endl;
     }
 
-    else if(temp==0){
+    
+         else if(temp==0){
         cout<<"Zero"<<endl;
     }
 
