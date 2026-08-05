@@ -14,15 +14,15 @@ int main() {
     if(a+b>c && a+c>b && b+c>a ){
 
         if(a==b&&a==c){
-        cout<<"Equilateral";
+        cout<<"Equilateral Triangle";
         }
 
         else if(a==b&&a!=c || a==c&&c!=b || b==c&&c!=a ){
-        cout<<"Isoceles";
+        cout<<"Isoceles Triangle ";
         }
 
         else if(a!=b!=c){
-        cout<<"Scalene";
+        cout<<"Scalene Triangle";
         }
 
     }
