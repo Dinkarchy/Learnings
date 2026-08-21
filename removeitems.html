@@ -1,0 +1,12 @@
+<ul id="taskList">
+    <li>Sample Task 1</li>
+    <li>Sample Task 2</li>
+</ul>
+
+<script>
+    document.getElementById("taskList").addEventListener("click", (e) => {
+        if(e.target.tagName === "LI"){
+            e.target.remove();
+        }
+    });
+</script>
