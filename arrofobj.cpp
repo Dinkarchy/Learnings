@@ -15,7 +15,7 @@ public:
 
 int main() {
     AB obj[3] = {1, 2, 3};
-    AB *p = obj;
+    AB *p = obj1;
 
     for(int i = 0; i < 3; i++) {
         cout << obj[i].get_i() << " ";
